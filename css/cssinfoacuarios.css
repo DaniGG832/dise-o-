@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+    background-color: aqua;
+}
+
+div {
+
+    border: 1px solid black;
+}
+
+#cabecera{
+
+background-color: blue;
+color: aliceblue;
+text-align: center;
+font-size: 30px;
+
+} 
+
+li {
+
+color: darkblue;
+
+
+}
+
+#menu a{
+
+   width: 100%;
+}
+#section, #formulario, #ficha, #Enlaces
+{
+
+    background-color: blue;
+    float: left;
+    width: 80%;
+    height: 600px;
+    background-image: url("../imagenes/fondo\ marino.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+
+}
+form, ul, textarea, label{
+
+    /*background-color: unset;*/
+    background-color: transparent;
+    margin-top: 52px;
+}
+
+button{
+
+    margin-left: 25px;
+}
+#formulario label, #formulario textarea, #formulario button{
+
+    display: block;
+    background-color: whitesmoke;
+}
+
+li {
+
+    background-color: transparent;
+    margin-top: 50px ;
+}
+
+ #aside {
+    height: 600px;
+    width: 20%;
+    float: right;
+    background-color: rgb(6, 64, 173);
+}
